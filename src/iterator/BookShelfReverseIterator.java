@@ -17,7 +17,7 @@ public class BookShelfReverseIterator implements Iterator {
     }
 
     @Override
-    public Object next() {
+    public Book next() {
         Book book = bookShelf.getBook(position);
         position--;
         return book;
