@@ -7,8 +7,8 @@ public class IteratorFactory extends Factory {
     @Override
     protected Iterator createProduct(Aggregate list, int type) {
         if (type == FORWARD) {
-            return new BookShelfIterator((BookShelf) list);
+            return list.iterator();
         }
-        return new BookShelfReverseIterator((BookShelf) list);
+        return list.reverseIterator();
     }
 }

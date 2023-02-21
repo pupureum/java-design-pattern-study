@@ -18,7 +18,7 @@ public class BookShelfIterator implements Iterator {
     }
 
     @Override
-    public Book next() {
+    public Object next() {
         Book book = bookShelf.getBook(position);
         position++;
         return book;

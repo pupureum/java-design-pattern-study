@@ -20,12 +20,12 @@ public class BookShelf implements Aggregate {
 
     @Override
     public Iterator iterator() {
-        return new IteratorFactory().create(this, 0);
+        return new BookShelfIterator(this);
     }
 
     @Override
     public Iterator reverseIterator() {
-        return new IteratorFactory().create(this, 1);
+        return new BookShelfReverseIterator(this);
     }
 
     @Override
