@@ -1,6 +1,6 @@
 package Bridge;
 
-import Bridge.AbstractList;
+import Bridge.impl.AbstractList;
 
 public class List<T> {
 

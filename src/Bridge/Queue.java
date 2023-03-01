@@ -1,7 +1,6 @@
 package Bridge;
 
-import Bridge.AbstractList;
-import Bridge.List;
+import Bridge.impl.AbstractList;
 
 public class Queue<T> extends List<T> {
 	public Queue(AbstractList<T> list) {

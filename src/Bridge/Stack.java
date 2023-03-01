@@ -1,5 +1,7 @@
 package Bridge;
 
+import Bridge.impl.AbstractList;
+
 public class Stack<T> extends List<T> {
 
     public Stack(AbstractList<T> list) {

@@ -1,9 +1,9 @@
-package Bridge;
+package Bridge.impl;
 
 import java.util.ArrayList;
 
 public class ArrayImpl<T> implements AbstractList<T>{
-    ArrayList<T> arrayList;
+    private ArrayList<T> arrayList;
 
     public ArrayImpl() {
         arrayList = new ArrayList<T>();

@@ -1,4 +1,4 @@
-package Bridge;
+package Bridge.impl;
 
 import java.util.LinkedList;
 

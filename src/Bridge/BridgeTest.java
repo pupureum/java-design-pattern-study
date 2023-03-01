@@ -1,5 +1,8 @@
 package Bridge;
 
+import Bridge.impl.ArrayImpl;
+import Bridge.impl.LinkedListImpl;
+
 public class BridgeTest {
     public static void main(String[] args) {
         Queue<String> arrayQueue = new Queue<String>(new ArrayImpl<String>());
